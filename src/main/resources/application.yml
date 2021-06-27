@@ -1,0 +1,11 @@
+server:
+  port:8080
+spring:
+  datasource:
+    username:root
+    password:mysqldou0301!
+    url:jdbc:mysql://127.0.0.1:3306/test?serverTimezo ne=UTC&useUnicode=true&characterEncoding=utf8&useSSL=false
+    driver-class-name:com.mysql.jdbc.Driver
+mybatis:
+  mapper-location:classpath:mapper/*.xml
+  type-aliases-package:com.makeorder.pack.entity
